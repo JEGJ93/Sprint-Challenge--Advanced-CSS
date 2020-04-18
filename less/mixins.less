@@ -1,1 +1,16 @@
 // Mixins Here
+.displayFlex(@direction, @justify,) {
+    display: flex;
+    flex-direction: @direction;
+    justify-content: @justify;
+}
+
+.btn-p (@font-size, @color, @background-color, @border-radius, @margin,) {
+    font-size: @font-size;
+    color: @color;
+    background-color: @background-color;
+    border-radius: @border-radius;
+    margin: @margin;
+}
+// @mobile
+@phone: ~"(max-width: 500px)";
